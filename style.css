@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/1216317.png);
+    background-size: 100vw;
+    background-position: fixed;
+    position: fixed;
+    width:100px;
+
+}
+nav{
+    margin-top: 5vh;
+    width: 100vw;;
+    height: 7vh;
+    background-color: rgba(255, 255, 255, 0.945);
+}
+nav h1{
+   padding: 1.5vh 1.5vw;
+   float: left;
+   color: green;
+}
+nav button{
+    width: 7vw;
+    height: 6vh; 
+    border: none;
+    color: rgb(29, 134, 8);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-right: 3vw;
+    transition: 0.2s;
+}
+
+nav button:hover{
+    width: 9vw;
+    height: 9vh;
+    background-color: green;
+    color: white;
+}
+.nav-btn{
+    float: right;
+    margin-right: 12vw;
+}
+.main-content{
+    background-color:  rgba(255, 255, 255, 0.945);
+    height: 70vh;
+    width: 30vw;
+    margin-top: 10vh;
+    margin-left: 4vw;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+        .blog-btn{
+            
+            width: 26vw;
+            margin: 5px 10px;
+            height: 6vh;
+            border: none;
+            border-radius: 5px;
+            transition: 0.2s;
+            color : rgb(56, 56, 56);
+             background-color: rgb(231, 229, 229);
+         }
+        .blog-btn:hover{
+            border : none;
+            background-color: rgb(116, 116, 116);
+            color: white;
+
+        }
