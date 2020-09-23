@@ -4,6 +4,7 @@
 }
 body{
     background-color: rgb(180, 180, 138);
+    width: 100vw;
 }
 .content{
     width: 60vw;
